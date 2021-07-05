@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+  background-color: hsl(217, 28%, 15%);
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+h2,h3,nav,.cta{
+  font-family: Raleway;
+}
+
+header img{
+  position: relative;
+  left: 50px;
+  top: 50px;
+  max-width: 100%;
+  
+}
+#nav{
+  position: relative;
+  top: 4%;
+  left: 70%;
+  width: 500px;
+  
+}  
+#nav ul {
+  white-space: nowrap;
+  
+  
+}  
+header #nav li {
+  font-size: 14px;
+  width: 25%;
+  display: inline-block;
+}
+#nav li a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+header #img {
+  position: relative;
+  left: 15%;
+  max-width: 100%;
+}
+
+.intro {
+  position: relative;
+  width: 1200px;
+  max-width: 100%;
+}
+#intro-1 {
+  position: relative;
+  left: 18%;
+  top: 100%;
+  text-align: center;
+  width: 600px;
+}
+.intro-1 button{
+  background-image: linear-gradient(to right, cyan, deepskyblue);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  outline: none;
+  width: 210px;
+  height: 40px;
+  border-radius: 50px;
+}
+main{
+  background-color: hsl(218, 28%, 13%);
+  padding: 130px;
+  max-width: 100%;
+  height: 3000px;
+  width: 1200px;
+}
+article{
+  text-align: center;
+}
+#illustration{
+  position: relative;
+  top: 10px;
+  max-width: 100%;
+
+}
+.illustration{
+  text-align: justify;
+  max-width:100%;
+}
+.illustration a{
+  color: cyan;
+  text-underline-position: under;
+}
+
+
+aside {
+  position: relative;
+  display: grid;
+  gap: 60px;
+  max-width: 100%;
+  
+}
+aside .icon img{
+  position: absolute;
+  top: 3.7%;
+  left: 78px;
+  width: 10%;
+  z-index: 1;
+  max-width: 100%
+} 
+.figure {
+  background-color: hsl(219, 30%, 18%);
+  padding: 10px;
+  width: 450px;
+  margin-left: auto;
+}
+.figure .quote {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+.figure img{
+  position: absolute;
+  width: 40px;
+  height: 45px;
+  border-radius: 30px;
+}
+.figure .wee .pee{
+  margin-left: 30px;
+  position: relative;
+  left: 50px;
+  font-size: 18px;
+}
+.figure p span{
+  font-size: 15px;
+}
+
+.access {
+  background-color: hsl(217, 28%, 15%);
+  padding: 60px;
+  width: 520px;
+  max-width: 100%;
+  position: absolute;
+  left: 20%;
+  top: 3750px;
+  text-align: center;
+
+}
+.access h2{
+  font-size: x-large;
+}
+.access p{
+  font-size: 14px;
+}
+.access input{
+  background-image: linear-gradient(transparent);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 310px;
+  height: 40px;
+  border-radius: 50px;
+  
+}
+.access button{
+  background-image: linear-gradient(to right, cyan, deepskyblue);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  outline: none;
+  width: 310px;
+  height: 40px;
+  border-radius: 50px;
+}
+footer{
+  background-color: hsl(216, 53%, 9%);
+  padding: 130px;
+  max-width: 100%;
+  width: 1200px;
+  height: 1200px;
+}
+#footer{
+  position: relative;
+  top: 300px;
+  max-width: 100%;
+}
+#icon{
+  position: relative;
+  left: 0;
+  top: 350px;
+}
+#icon img {
+  position: absolute;
+  left: 0;
+}
+.footer ul{
+  position: relative;
+  top:350px;
+  white-space: pre-line;
+}
+.footer li {
+  font-size: 14px;
+  width: 25%;
+  display: block; 
+}
+.footer li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+.footer-1 ul{
+  position: relative;
+  top: 350px;
+  white-space: pre-line;
+}
+.footer-1 li{
+  font-size: 14px;
+  width: 25%;
+  display: block;
+}
+.footer-1 li a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+.images {
+  position: relative;
+  top:350px;
+  
+}
+.images img{
+  position: relative;
+  top: 50px;
+  left: 40%;
+  max-width: 100%;
+  width:55px;
+}
+.attribution{
+  position: relative;
+  top:500px; 
+} 
+.attribution a {
+  text-align: center;
+  color: cyan;
+  font-size: 18px;
+  font-weight: bold;
+}
